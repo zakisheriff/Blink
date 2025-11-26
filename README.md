@@ -1,4 +1,4 @@
-# <div align="center">Blink ⚡️</div>
+# <div align="center">Blink</div>
 
 <div align="center">
   <strong>A Dual-Platform Project — Native macOS App + Modern Android App Foundation</strong>
@@ -154,12 +154,22 @@ cd Blink/android
 
 Open in Android Studio → Build → Run.
 
-🌟 Vision
+# 🌟 Vision
+
 Blink’s purpose is to be:
-A premium macOS app template with world-class visuals
-A clean Android foundation for any future application
-A multi-platform starter kit for incredible apps
-☕️ Support the Project
+
+- **A premium macOS app template** with world-class visuals  
+- **A clean Android foundation** for any future application  
+- **A multi-platform starter kit** for incredible apps  
+
+# ☕️ Support the Project
+
 If Blink helped you or inspired your next app:
-<div align="center"> <a href="https://buymeacoffee.com/zakisherifw" target="_blank"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;"> </a> </div>
-<p align="center"> Made with Swift, and Kotlin by <strong>Zaki Sheriff</strong> </p> ```
+
+<div align="center">
+<a href="https://buymeacoffee.com/zakisherifw" target="_blank">
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
+</a>
+</div>
+
+<p align="center"> Made with Swift, and Kotlin by <strong>Zaki Sheriff</strong>
