@@ -7,31 +7,18 @@
 <br />
 
 <div align="center">
-
-  <!-- macOS badge -->
-  <img src="https://img.shields.io/badge/macOS-Liquid_Glass_UI-000000?style=for-the-badge&logo=apple&logoColor=white" />
-
-  <!-- Android badge -->
-  <img src="https://img.shields.io/badge/Android-Kotlin_Ready-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Swift-5.9-F05138?style=for-the-badge&logo=swift&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-1.9-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" />
-
-  <!-- License -->
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
-
-  <br /><br />
-
-  <!-- Downloads -->
-  <a href="https://github.com/zakisheriff/Blink/releases/latest">
-    <img src="https://img.shields.io/badge/Download_macOS_App-DMG-blue?style=for-the-badge&logo=apple&logoColor=white" />
-  </a>
-
-  <a href="https://github.com/zakisheriff/Blink/releases/latest">
-    <img src="https://img.shields.io/badge/Download_Android-App_APK-green?style=for-the-badge&logo=android&logoColor=white" />
-  </a>
-
+<img src="assets/badges/macos.svg" height="50" />
+<img src="assets/badges/android.svg" height="50" />
+<img src="assets/badges/swift.svg" height="50" />
+<img src="assets/badges/kotlin.svg" height="50" />
+<img src="assets/badges/license.svg" height="50" />
+<br><br>
+<a href="https://github.com/zakisheriff/Blink/releases/latest">
+<img src="assets/badges/download-macos.svg" height="50" />
+</a>
+<a href="https://github.com/zakisheriff/Blink/releases/latest">
+<img src="assets/badges/download-android.svg" height="50" />
+</a>
 </div>
 
 <br />
