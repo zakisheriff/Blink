@@ -1,84 +1,116 @@
-# <div align="center">Lumen</div>
+# <div align="center">Blink</div>
 
 <div align="center">
-  <strong>The Next-Generation Android File Transfer for macOS</strong>
+  <strong>The Modern, Minimalist Android App Foundation</strong>
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://img.shields.io/badge/macOS-Sequioa_Ready-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Ready" />
-  <img src="https://img.shields.io/badge/Swift-5.9-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift 5.9" />
+  <img src="https://img.shields.io/badge/Android-Studio-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Studio" />
+  <img src="https://img.shields.io/badge/Kotlin-1.9-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
   <br />
   <br />
-  <a href="https://github.com/zakisheriff/Lumen/releases/latest">
-    <img src="https://img.shields.io/badge/Download_Lumen-DMG-blue?style=for-the-badge&logo=apple&logoColor=white" alt="Download DMG" />
+  <a href="https://github.com/zakisheriff/Blink/releases/latest">
+    <img src="https://img.shields.io/badge/Download_APK-Android-blue?style=for-the-badge&logo=android&logoColor=white" alt="Download APK" />
   </a>
 </div>
 
 <br />
 
-> **"It feels like it was built by Apple."**
+> **"Blink is not just a skeleton — it’s a canvas for your next Android masterpiece."**
 >
-> Lumen isn't just a tool; it's a seamless extension of your Mac. Designed with the fluid, glassy aesthetics of **macOS 26**, it bridges the gap between your Android device and your Mac with elegance and speed.
+> Blink provides a sleek, minimal, and fully native Android project foundation. With a clean structure, modular code, and a ready-to-build setup, it’s designed to help developers focus on creating **stunning apps without the clutter**.
 
 ---
 
-## ✨ Why Lumen?
+## ✨ Why Blink?
 
-Forget the clunky, outdated file transfer tools of the past. Lumen is built from the ground up to be **fast, beautiful, and native**.
+Forget messy starter projects or outdated templates. Blink is **lightweight, modular, and elegant**, making app development faster and smoother.
 
-### 🎨 Stunning "Liquid Glass" UI
--   **Native Aesthetics**: Built with SwiftUI and designed to feel right at home on the latest macOS.
--   **Unified Window**: A seamless, translucent sidebar that merges perfectly with the title bar.
--   **Liquid Selection**: Files and folders highlight with a premium, rounded, and subtle glassy effect.
--   **Zero-Latency Interaction**: Instant selection and smooth hover effects that feel alive.
+### 🎨 Clean & Modular Architecture
+- **Well-Organized Structure**: Folders and packages designed for easy scaling.  
+- **Native Android**: Built with Kotlin and fully compatible with Android Studio.  
+- **Minimal Boilerplate**: Start coding your features immediately, no unnecessary clutter.  
 
-### 🚀 Blazing Fast Performance
--   **Native C++ MTP Bridge**: We don't rely on slow wrappers. Lumen talks directly to `libmtp` for maximum speed.
--   **Recursive Folder Download**: Drag entire folders from your Android device to your Mac instantly.
--   **Smart Caching**: Browsing directories is snappy and responsive.
+### 🚀 Ready-to-Build & Run
+- **APK Generation**: Quickly build debug or release APKs.  
+- **Emulator & Device Ready**: Test seamlessly on Android emulators or physical devices.  
+- **Gradle Powered**: Full control over dependencies, build scripts, and configurations.  
 
-### 🔌 Seamless Connectivity
--   **Auto-Detection**: Plug in your phone, and Lumen sees it instantly.
--   **Smart Permission Handling**: Forgot to unlock your phone? Lumen politely asks and auto-refreshes the moment you grant access. No restarts needed.
--   **Force Reconnect**: A dedicated "I've Allowed Access" button for when you need that extra push.
+### 🔌 Developer-Friendly
+- **Customizable**: Modify package structure, add libraries, or create modular features.  
+- **Clean Codebase**: Perfect for learning, rapid prototyping, or production apps.  
+- **Future-Ready**: Easily extend with modern Android libraries, Jetpack, or UI frameworks.  
 
 ---
 
-## � Download & Install
+## 📂 File Structure
 
-You don't need to be a developer to use Lumen. Just download the app and start transferring.
+```
+Blink/
+├── android/
+│   ├── app/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/com/example/blink/
+│   │   │   │   │   ├── ui/
+│   │   │   │   │   │   ├── components/
+│   │   │   │   │   │   ├── screens/
+│   │   │   │   │   │   ├── theme/
+│   │   │   │   │   │   ├── viewmodel/
+│   │   │   │   │   │   └── utils/
+│   │   │   │   │   └── res/
+│   │   │   │   │   └── AndroidManifest.xml
+│   │   │   │   └── AndroidManifest.xml
+│   │   │   └── build.gradle
+│   │   └── build.gradle
+│   └── build.gradle
+├── build.gradle
+├── gradle/
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── README.md
+└── settings.gradle
+```
 
-1.  **[Download the latest .dmg file](https://github.com/zakisheriff/Lumen/releases/latest)** from our Releases page.
-2.  Open the `.dmg` file.
-3.  Drag **Lumen** into your **Applications** folder.
-4.  Launch Lumen and connect your Android phone!
+
+---
+
+## 📥 Download & Run
+
+You don’t need a complex setup to start with Blink:
+
+1. **[Download the latest APK](https://github.com/zakisheriff/Blink/releases/latest)**  
+2. Install on your device (enable “Install from unknown sources” if needed).  
+3. Open Android Studio to explore, build, and extend the project.  
 
 ---
 
 ## 🛠️ For Developers
 
-Lumen is a showcase of modern macOS development. If you want to build it yourself:
+Blink is built for developers who value speed and clarity:
 
-1.  **Clone the repo**:
+1. **Clone the repository**:
     ```bash
-    git clone https://github.com/zakisheriff/Lumen.git
+    git clone https://github.com/zakisheriff/Blink.git
+    cd Blink
     ```
-2.  **Install Dependencies**:
-    Ensure you have `libmtp` installed via Homebrew:
+2. **Open in Android Studio**: Open the `android/` folder as a project.  
+3. **Build & Run**:
+    - Click **Run** in Android Studio, or  
     ```bash
-    brew install libmtp
+    ./gradlew assembleDebug
     ```
-3.  **Build**:
-    Open `Lumen.xcodeproj` in Xcode and hit **Run** (Cmd+R).
+4. **Start Creating**: Add features, screens, and modules on top of the clean base.
 
 ---
 
 ## ☕️ Support the Magic
 
-If Lumen saved you time (or just looks too good to resist), consider buying me a coffee! Your support keeps the updates coming.
+If Blink saves you development time or sparks creativity, consider supporting the project!  
 
 <div align="center">
 <a href="https://buymeacoffee.com/zakisherifw" target="_blank">
@@ -89,5 +121,5 @@ If Lumen saved you time (or just looks too good to resist), consider buying me a
 ---
 
 <p align="center">
-  Made by <strong>Zaki Sheriff</strong>
+  Made with ❤️ and Kotlin by <strong>Zaki Sheriff</strong>
 </p>
