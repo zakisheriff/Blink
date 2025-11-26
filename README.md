@@ -1,125 +1,165 @@
-# <div align="center">Blink</div>
+# <div align="center">Blink ⚡️</div>
 
 <div align="center">
-  <strong>The Modern, Minimalist Android App Foundation</strong>
+  <strong>A Dual-Platform Project — Native macOS App + Modern Android App Foundation</strong>
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Android-Studio-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Studio" />
-  <img src="https://img.shields.io/badge/Kotlin-1.9-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
-  <br />
-  <br />
+
+  <!-- macOS badge -->
+  <img src="https://img.shields.io/badge/macOS-Liquid_Glass_UI-000000?style=for-the-badge&logo=apple&logoColor=white" />
+
+  <!-- Android badge -->
+  <img src="https://img.shields.io/badge/Android-Kotlin_Ready-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/Swift-5.9-F05138?style=for-the-badge&logo=swift&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kotlin-1.9-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" />
+
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+
+  <br /><br />
+
+  <!-- Downloads -->
   <a href="https://github.com/zakisheriff/Blink/releases/latest">
-    <img src="https://img.shields.io/badge/Download_APK-Android-blue?style=for-the-badge&logo=android&logoColor=white" alt="Download APK" />
+    <img src="https://img.shields.io/badge/Download_macOS_App-DMG-blue?style=for-the-badge&logo=apple&logoColor=white" />
   </a>
+
+  <a href="https://github.com/zakisheriff/Blink/releases/latest">
+    <img src="https://img.shields.io/badge/Download_Android-App_APK-green?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+
 </div>
 
 <br />
 
-> **"Blink is not just a skeleton — it’s a canvas for your next Android masterpiece."**
+> **“Blink is not a simple app. It’s a refined dual-platform experience.”**  
 >
-> Blink provides a sleek, minimal, and fully native Android project foundation. With a clean structure, modular code, and a ready-to-build setup, it’s designed to help developers focus on creating **stunning apps without the clutter**.
+> The macOS app embraces a premium **Liquid Glass** interface inspired by macOS 26, while the Android app provides a clean, modern foundation built in Kotlin. Blink delivers elegance on desktop and flexibility on mobile — both crafted natively and intentionally.
 
 ---
 
-## ✨ Why Blink?
+# ✨ What is Blink?
 
-Forget messy starter projects or outdated templates. Blink is **lightweight, modular, and elegant**, making app development faster and smoother.
+Blink is a **cross-ecosystem project** consisting of:
 
-### 🎨 Clean & Modular Architecture
-- **Well-Organized Structure**: Folders and packages designed for easy scaling.  
-- **Native Android**: Built with Kotlin and fully compatible with Android Studio.  
-- **Minimal Boilerplate**: Start coding your features immediately, no unnecessary clutter.  
+### **1. A Native macOS App (Swift + SwiftUI)**
+- Liquid Glass UI  
+- Native macOS 26 aesthetics  
+- Smooth animations  
+- Clean architecture  
 
-### 🚀 Ready-to-Build & Run
-- **APK Generation**: Quickly build debug or release APKs.  
-- **Emulator & Device Ready**: Test seamlessly on Android emulators or physical devices.  
-- **Gradle Powered**: Full control over dependencies, build scripts, and configurations.  
+### **2. A Modern Android App Template (Kotlin)**
+- Lightweight skeleton  
+- Clean structure  
+- Ready for any app idea  
+- Easy to extend and scale  
 
-### 🔌 Developer-Friendly
-- **Customizable**: Modify package structure, add libraries, or create modular features.  
-- **Clean Codebase**: Perfect for learning, rapid prototyping, or production apps.  
-- **Future-Ready**: Easily extend with modern Android libraries, Jetpack, or UI frameworks.  
+Blink is ideal for developers who want **both** a beautiful Mac app and a clean Android foundation under one project.
 
 ---
 
-## 📂 File Structure
+# 🛠 Technologies Used
+
+### **macOS App**
+| Tool | Purpose |
+|------|---------|
+| **Swift (5.9+)** | Core app logic |
+| **SwiftUI** | macOS UI framework |
+| **Xcode 15+** | Development IDE |
+| **Apple Native Toolchain** | macOS app packaging + DMG |
+
+### **Android App**
+| Tool | Purpose |
+|------|---------|
+| **Kotlin** | Main app language |
+| **Android Studio** | Main IDE |
+| **Gradle** | Build system |
+| **Java 17+** | Toolchain compatibility |
+
+### General Tools
+- Git  
+- ZSH / macOS Terminal  
+- GitHub Releases  
+
+---
+
+# 📂 Project Folder Structure
 
 ```
 Blink/
-├── android/
-│   ├── app/
-│   │   ├── src/
-│   │   │   ├── main/
-│   │   │   │   ├── java/com/example/blink/
-│   │   │   │   │   ├── ui/
-│   │   │   │   │   │   ├── components/
-│   │   │   │   │   │   ├── screens/
-│   │   │   │   │   │   ├── theme/
-│   │   │   │   │   │   ├── viewmodel/
-│   │   │   │   │   │   └── utils/
-│   │   │   │   │   └── res/
-│   │   │   │   │   └── AndroidManifest.xml
-│   │   │   │   └── AndroidManifest.xml
-│   │   │   └── build.gradle
-│   │   └── build.gradle
-│   └── build.gradle
-├── build.gradle
-├── gradle/
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
+├── macos/ # Native macOS App
+│ ├── Blink.xcodeproj # Xcode project
+│ ├── Blink/ # Swift source files
+│ │ ├── Views/ # SwiftUI screens
+│ │ ├── Assets.xcassets # App icons & assets
+│ │ └── Utils/ # Helpers & extensions
+│ └── Resources/ # App resources
+│
+├── android/ # Native Android app
+│ ├── app/
+│ │ ├── src/
+│ │ │ ├── main/
+│ │ │ │ ├── java/ # Kotlin code
+│ │ │ │ └── res/ # Layouts, images, themes
+│ │ └── build.gradle # App module Gradle
+│ ├── gradle/ # Gradle config
+│ └── build.gradle # Project Gradle
+│
+├── .gitignore
 ├── README.md
-└── settings.gradle
+└── LICENSE
 ```
 
 
 ---
 
-## 📥 Download & Run
+# 📥 Download & Install
 
-You don’t need a complex setup to start with Blink:
+You can test **both apps** right now:
 
-1. **[Download the latest APK](https://github.com/zakisheriff/Blink/releases/latest)**  
-2. Install on your device (enable “Install from unknown sources” if needed).  
-3. Open Android Studio to explore, build, and extend the project.  
+### **🔵 macOS App**
+1. Download the latest **DMG**:  
+   👉 https://github.com/zakisheriff/Blink/releases/latest  
+2. Open the `.dmg`  
+3. Drag **Blink** into Applications  
+4. Launch & enjoy the Liquid Glass UI ✨  
 
----
-
-## 🛠️ For Developers
-
-Blink is built for developers who value speed and clarity:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/zakisheriff/Blink.git
-    cd Blink
-    ```
-2. **Open in Android Studio**: Open the `android/` folder as a project.  
-3. **Build & Run**:
-    - Click **Run** in Android Studio, or  
-    ```bash
-    ./gradlew assembleDebug
-    ```
-4. **Start Creating**: Add features, screens, and modules on top of the clean base.
+### **🟢 Android App**
+1. Download the latest **APK**:  
+   👉 https://github.com/zakisheriff/Blink/releases/latest  
+2. Install it on your device  
+3. Start using or extending the app  
 
 ---
 
-## ☕️ Support the Magic
+# 🧑‍💻 For Developers
 
-If Blink saves you development time or sparks creativity, consider supporting the project!  
+### macOS (Swift App)
+```bash
+git clone https://github.com/zakisheriff/Blink.git
+cd Blink/macos
+open Blink.xcodeproj
+```
 
-<div align="center">
-<a href="https://buymeacoffee.com/zakisherifw" target="_blank">
-<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
-</a>
-</div>
+Then press Run (⌘ + R).
 
----
+```bash
+git clone https://github.com/zakisheriff/Blink.git
+cd Blink/android
+```
 
-<p align="center">
-  Made with ❤️ and Kotlin by <strong>Zaki Sheriff</strong>
-</p>
+Open in Android Studio → Build → Run.
+
+🌟 Vision
+Blink’s purpose is to be:
+A premium macOS app template with world-class visuals
+A clean Android foundation for any future application
+A multi-platform starter kit for incredible apps
+☕️ Support the Project
+If Blink helped you or inspired your next app:
+<div align="center"> <a href="https://buymeacoffee.com/zakisherifw" target="_blank"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;"> </a> </div>
+<p align="center"> Made with Swift, and Kotlin by <strong>Zaki Sheriff</strong> </p> ```
